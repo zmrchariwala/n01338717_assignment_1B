@@ -22,57 +22,57 @@ namespace bus_tour_review {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// aspx_passenger_review_title control.
+        /// passenger_review_title control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox aspx_passenger_review_title;
+        protected global::System.Web.UI.WebControls.TextBox passenger_review_title;
         
         /// <summary>
-        /// aspx_passenger_review_message control.
+        /// passenger_review_message control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox aspx_passenger_review_message;
+        protected global::System.Web.UI.WebControls.TextBox passenger_review_message;
         
         /// <summary>
-        /// aspx_passenger_email control.
+        /// passenger_email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox aspx_passenger_email;
+        protected global::System.Web.UI.WebControls.TextBox passenger_email;
         
         /// <summary>
-        /// aspx_passenger_experience control.
+        /// passenger_experience control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList aspx_passenger_experience;
+        protected global::System.Web.UI.WebControls.DropDownList passenger_experience;
         
         /// <summary>
-        /// aspx_tour_rating control.
+        /// tour_rating control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList aspx_tour_rating;
+        protected global::System.Web.UI.WebControls.RadioButtonList tour_rating;
         
         /// <summary>
-        /// aspx_passenger_liked_option control.
+        /// passenger_liked_option control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList aspx_passenger_liked_option;
+        protected global::System.Web.UI.WebControls.CheckBoxList passenger_liked_option;
     }
 }

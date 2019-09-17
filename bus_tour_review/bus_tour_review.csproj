@@ -109,7 +109,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="bus_tour.aspx" />
+    <Content Include="bus_tour_review.aspx" />
+    <Content Include="bus_tour_review.html" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -177,12 +178,12 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="bus_tour.aspx.cs">
-      <DependentUpon>bus_tour.aspx</DependentUpon>
+    <Compile Include="bus_tour_review.aspx.cs">
+      <DependentUpon>bus_tour_review.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="bus_tour.aspx.designer.cs">
-      <DependentUpon>bus_tour.aspx</DependentUpon>
+    <Compile Include="bus_tour_review.aspx.designer.cs">
+      <DependentUpon>bus_tour_review.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
