@@ -21,7 +21,7 @@
                 <asp:TextBox placeholder="Please enter review title" runat="server" ID="passenger_review_title"></asp:TextBox>
             </div>
             <div>
-                <asp:Label runat="server">Please leave your review:</asp:Label>
+                <asp:Label runat="server">Please leave your Message:</asp:Label>
             </div>
             <div>
                 <asp:TextBox runat="server" TextMode="multiline" ID="passenger_review_message" placeholder="Please leave your message" Rows="6" Columns="35"></asp:TextBox>
