@@ -39,11 +39,11 @@
                 <asp:RegularExpressionValidator runat="server" EnableClientScript="true" ErrorMessage="Please enter correct e-mail address" ControlToValidate="passenger_email" ForeColor="Red" ValidationExpression="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"></asp:RegularExpressionValidator>
                 <asp:RequiredFieldValidator runat="server" EnableClientScript="true" ErrorMessage="Please enter email address" ControlToValidate="passenger_email" ForeColor="Red"></asp:RequiredFieldValidator>
             </section>
-        <section>
-            <asp:TextBox runat="server" ID="confirm_passenger_email" placeholder="Please enter email address e.gjohn@gmail.com"></asp:TextBox>
-            <asp:CompareValidator runat="server" EnableClientScript="true" ErrorMessage="Your email address is not same as above" ControlToCompare="passenger_email" ControlToValidate="confirm_passenger_email" ForeColor="Red"></asp:CompareValidator>
-            <asp:RequiredFieldValidator runat="server" EnableClientScript="true" ErrorMessage="Please enter email address" ControlToValidate="confirm_passenger_email" ForeColor="Red"></asp:RequiredFieldValidator>
-        </section>
+            <section>
+                <asp:TextBox runat="server" ID="confirm_passenger_email" placeholder="Please enter email address e.gjohn@gmail.com"></asp:TextBox>
+                <asp:CompareValidator runat="server" EnableClientScript="true" ErrorMessage="Your email address is not same as above" ControlToCompare="passenger_email" ControlToValidate="confirm_passenger_email" ForeColor="Red"></asp:CompareValidator>
+                <asp:RequiredFieldValidator runat="server" EnableClientScript="true" ErrorMessage="Please enter email address" ControlToValidate="confirm_passenger_email" ForeColor="Red"></asp:RequiredFieldValidator>
+            </section>
             <section>
                 <asp:Label runat="server">How was your tour experience?</asp:Label>
             </section>
