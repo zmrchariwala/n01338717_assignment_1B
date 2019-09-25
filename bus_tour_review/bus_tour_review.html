@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Bus tour review</title>
     <style>
-        div{
+        section{
             padding-top:10px;
         }
     </style>  
@@ -12,76 +12,82 @@
 <body>
     <form method="post" action="https://postman-echo.com/post">
         <h1 style="text-align:center;">BUS TOUR REVIEW</h1>
-        <div>
+        <section>
             <label for="passenger_review_title">Review title:</label>
-        </div>
-        <div>
+        </section>
+        <section>
             <input type="text" name="passenger_review_title" id="passenger_review_title" placeholder="Please enter review title" />
-        </div>
-        <div>
+        </section>
+        <section>
             <label for="passenger_review_message">Please leave your message:</label>
-        </div>
-        <div>
+        </section>
+        <section>
             <textarea name="passenger_review_message" id="passenger_review_message" cols="35" rows="6" placeholder="Please leave your message"></textarea>
-        </div>
-        <div>
+        </section>
+        <section>
             <label for="passenger_email">Email address:</label>
-        </div>
-        <div>
+        </section>
+        <section>
             <input type="text" name="passenger_email" id="passenger_email" placeholder="Please enter email address e.g john@gmail.com" />
-        </div>
-        <div>
+        </section>
+        <section>
+            <label for="confirm_passenger_email">Confirm Email address:</label>
+        </section>
+        <section>
+            <input type="text" name="confirm_passenger_email" id="confirm_passenger_email" placeholder="Please enter email address e.g john@gmail.com" />
+        </section>
+        <section>
             <label>How was your tour experience?</label>
-        </div>
-        <div>
+        </section>
+        <section>
             <select id="passenger_experience" name="passenger_experience">
                 <option value="Very good">Very good</option>
                 <option value="Good">Good</option>
                 <option value="Fair">Fair</option>
                 <option value="Poor">Poor</option>
             </select>
-        </div>
-        <div>
+        </section>
+        <section>
             <label>Rating and review :</label>
-        </div>
-        <div>
-            <input type="radio" name="tour_rating" id="tour_rating_1" value="1" />
-            <label for="tour_rating_1">1</label>
-        </div>
-        <div>
-            <input type="radio" name="tour_rating" id="tour_rating_2" value="2" />
-            <label for="tour_rating_2">2</label>
-        </div>
-        <div>
-            <input type="radio" name="tour_rating" id="tour_rating_3" value="3" />
-            <label for="tour_rating_3">3</label>
-        </div>
-        <div>
-            <input type="radio" name="tour_rating" id="tour_rating_4" value="4" />
-            <label for="tour_rating_4">4</label>
-        </div>
-        <div>
-            <input type="radio" name="tour_rating" id="tour_rating" value="5" />
-            <label for="tour_rating_5">5</label>
-        </div>
-        <div>
+        </section>
+        <section>
+            <input type="radio" name="tour_star" id="tour_star_1" value="1" />
+            <label for="tour_star_1">1</label>
+        </section>
+        <section>
+            <input type="radio" name="tour_star" id="tour_star_2" value="2" />
+            <label for="tour_star_2">2</label>
+        </section>
+        <section>
+            <input type="radio" name="tour_star" id="tour_star_3" value="3" />
+            <label for="tour_star_3">3</label>
+        </section>
+        <section>
+            <input type="radio" name="tour_star" id="tour_star_4" value="4" />
+            <label for="tour_star_4">4</label>
+        </section>
+        <section>
+            <input type="radio" name="tour_star" id="tour_star_5" value="5" />
+            <label for="tour_star_5">5</label>
+        </section>
+        <section>
             <label>Thing's you liked on board:</label>
-        </div>
-        <div>
+        </section>
+        <section>
             <input type="checkbox" name="passenger_liked_option1" id="passenger_liked_option1" value="Cleanliness" /><label for="passenger_liked_option1">Cleanliness</label>
-        </div>
-        <div>
+        </section>
+        <section>
             <input type="checkbox" name="passenger_liked_option2" id="passenger_liked_option2" value="Tour guide" /><label for="passenger_liked_option2">Tour guide</label>
-        </div>
-        <div>
+        </section>
+        <section>
             <input type="checkbox" name="passenger_liked_option3" id="passenger_liked_option3" value="People" /><label for="passenger_liked_option3">People</label>
-        </div>
-        <div>
+        </section>
+        <section>
             <input type="checkbox" name="passenger_liked_option4" id="passenger_liked_option4" value="Facilities" /><label for="passenger_liked_option4">Facilities</label>
-        </div>
-        <div>
+        </section>
+        <section>
             <input type="submit" value="Submit" />
-        </div>
+        </section>
     </form>
 </body>
 </html>

@@ -49,6 +49,15 @@ namespace bus_tour_review {
         protected global::System.Web.UI.WebControls.TextBox passenger_email;
         
         /// <summary>
+        /// confirm_passenger_email control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox confirm_passenger_email;
+        
+        /// <summary>
         /// passenger_experience control.
         /// </summary>
         /// <remarks>
@@ -74,5 +83,14 @@ namespace bus_tour_review {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBoxList passenger_liked_option;
+        
+        /// <summary>
+        /// overall_message control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl overall_message;
     }
 }
